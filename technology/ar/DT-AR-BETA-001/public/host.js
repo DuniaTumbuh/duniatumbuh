@@ -2,7 +2,7 @@ const video=document.querySelector('#camera'), canvas=document.querySelector('#o
 const ctx=canvas.getContext('2d');
 const nimo=new Image();
 let placement={x:.5,y:.63,scale:.34}, ready=false, sending=false;
-const canonical='/assets/nimo/Nimo_Master_Character_Reference_v1.1_Jambul_Correction_Candidate.png';
+const canonical='/canonical/Nimo_Master_Character_Reference_v1.1_Jambul_Correction_Candidate.png';
 function setStatus(text,ok=false){status.textContent=text;status.className=`overlay ${ok?'ok':''}`}
 function command(type){if(type==='MOVE_LEFT')placement.x=.25;if(type==='MOVE_CENTER'||type==='RESET')placement.x=.5;if(type==='MOVE_RIGHT')placement.x=.75;if(type==='WAVE')placement.scale=.38;setTimeout(()=>placement.scale=.34,650)}
 nimo.onload=()=>{ready=true;setStatus('Aset Nimo kanonis termuat',true)};

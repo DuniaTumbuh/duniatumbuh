@@ -6,11 +6,11 @@
 
 | Acceptance criterion | Current result | Required evidence |
 |---|---|---|
-| 1. Nimo renders | BLOCKED | Canonical PNG must be recovered and loaded |
+| 1. Nimo renders | BINARY READY / DEVICE NOT TESTED | Canonical PNG must render on physical AR Host |
 | 2. Projector workflow | NOT TESTED | Classroom laptop/projector observation |
 | 3. Operator triggers action | CODE PASS / DEVICE NOT TESTED | Tab command visibly changes host/projector |
 | 4. Two positions | CODE PASS / DEVICE NOT TESTED | Left/center/right movement recording or signed observation |
-| 5. Identity acceptable | BLOCKED | Founder-approved binary plus identity QC |
+| 5. Identity acceptable | RECOVERY VERIFICATION PASS / DEVICE NOT TESTED | Confirm projected output preserves identity |
 | 6. Responsive live demo | NOT TESTED | Measured classroom LAN response and frame cadence |
 | 7. No child identification | PASS BY DESIGN | Command allowlist contains no biometric/identity action |
 

@@ -15,7 +15,7 @@ Laptop runs the local server. Smartphone opens `/host.html`; Tab S8 opens `/wiza
 
 ## Run locally
 
-1. Add the approved Nimo PNG at `public/assets/nimo/Nimo_Master_Character_Reference_v1.1_Jambul_Correction_Candidate.png` without renaming or modification.
+1. Verify the two canonical recovery checksums with `node --test`.
 2. Use HTTPS for smartphone camera access. Set `TLS_KEY` and `TLS_CERT` to locally controlled certificate files.
 3. Run `node server.mjs` and open the three device URLs on the same trusted classroom LAN.
 4. Mirror/extend the laptop projector page full-screen.
@@ -28,4 +28,4 @@ TLS_KEY=/safe/local/key.pem TLS_CERT=/safe/local/cert.pem PORT=8443 node server.
 
 ## Evidence status
 
-Automated tests prove command allowlisting only. Gate 1 remains NOT TESTED until the canonical binary is present and the real smartphone, Tab S8, laptop, and projector chain is observed. No merge or deployment is authorized.
+Automated tests prove command allowlisting and byte-level integrity of the recovered candidate/evidence. Gate 1 remains NOT TESTED until the real smartphone, Tab S8, laptop, and projector chain is observed. No merge or deployment is authorized.

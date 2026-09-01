@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const publicRoot = path.join(root, 'public');
+const canonicalNimoRoot = path.resolve(root, '../../../production/characters/nimo/DT-PROD-NIMO-MASTER-001/assets');
 const port = Number(process.env.PORT || 8443);
 const clients = { command: new Set(), frame: new Set(), status: new Set() };
 let lastFrame = null;
@@ -55,6 +56,12 @@ function staticFile(req, res) {
 
 async function handler(req, res) {
   const pathname = new URL(req.url, 'https://local').pathname;
+  if (req.method === 'GET' && pathname === '/canonical/Nimo_Master_Character_Reference_v1.1_Jambul_Correction_Candidate.png') {
+    const asset = path.join(canonicalNimoRoot, 'Nimo_Master_Character_Reference_v1.1_Jambul_Correction_Candidate.png');
+    if (!fs.existsSync(asset)) return json(res, 404, { error:'Canonical Nimo binary unavailable' });
+    res.writeHead(200, { 'content-type':'image/png', 'cache-control':'no-store' });
+    return fs.createReadStream(asset).pipe(res);
+  }
   if (req.method === 'GET' && pathname === '/health') return json(res, 200, { ok:true, workOrder:'DT-AR-BETA-001' });
   if (req.method === 'GET' && pathname.startsWith('/events/')) {
     const channel = pathname.slice('/events/'.length);
