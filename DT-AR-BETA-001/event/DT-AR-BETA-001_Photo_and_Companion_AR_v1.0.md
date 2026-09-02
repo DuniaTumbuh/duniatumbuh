@@ -1,6 +1,6 @@
 # DT-AR-BETA-001 — Photo and Companion AR v1.0
 
-**Status:** QC CANDIDATE — NOT CANONICAL
+**Status:** CANONICAL — FOUNDER APPROVED
 
 ## PHOTO-01
 **P1 HIGH VALUE.** Preferred format: approximately four groups of five students, or post-session 3–5 minute optional photo period if core timing is tight.

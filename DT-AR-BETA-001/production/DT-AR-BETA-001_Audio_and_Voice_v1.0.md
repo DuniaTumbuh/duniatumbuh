@@ -1,6 +1,6 @@
 # DT-AR-BETA-001 — Audio and Voice v1.0
 
-**Status:** QC CANDIDATE — NOT CANONICAL
+**Status:** CANONICAL — FOUNDER APPROVED
 
 Nimo Voice Master remains the approved voice identity; this package does not redesign it.
 

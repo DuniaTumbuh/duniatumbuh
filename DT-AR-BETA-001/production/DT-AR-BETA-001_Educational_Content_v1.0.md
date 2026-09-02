@@ -1,6 +1,6 @@
 # DT-AR-BETA-001 — Educational Content v1.0
 
-**Status:** QC CANDIDATE — NOT CANONICAL
+**Status:** CANONICAL — FOUNDER APPROVED
 
 - **EDU-01 — Benih Kehidupan:** seed, root, shoot, sprout, plant.
 - **EDU-02 — Apa yang Tanaman Butuhkan?:** water, sunlight, air, soil/nutrients.

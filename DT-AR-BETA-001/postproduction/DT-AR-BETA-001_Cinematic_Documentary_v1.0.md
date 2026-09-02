@@ -1,6 +1,6 @@
 # DT-AR-BETA-001 — Cinematic Documentary v1.0
 
-**Status:** QC CANDIDATE — NOT CANONICAL
+**Status:** CANONICAL — FOUNDER APPROVED
 
 Working title: **Ketika Nimo Datang ke Kelas**
 

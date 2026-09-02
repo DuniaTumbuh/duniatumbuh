@@ -1,6 +1,6 @@
 # DT-AR-BETA-001 — Post-Event Closeout and Evidence Plan v1.0
 
-**Status:** QC CANDIDATE — NOT CANONICAL
+**Status:** CANONICAL — FOUNDER APPROVED
 
 ## Immediate Closeout
 Preserve original camera files before editing; create at least two controlled backups before media formatting; preserve clean AR/projector capture and event logs; record final evidence/defects without rewriting history; classify footage by consent/distribution status.

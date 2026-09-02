@@ -1,6 +1,6 @@
 # DT-AR-BETA-001 — Asset Provenance and Integrity Register v1.0
 
-**Status:** QC CANDIDATE — NOT CANONICAL
+**Status:** CANONICAL — FOUNDER APPROVED
 
 | Asset | Role | SHA-256 | Status |
 |---|---|---|---|

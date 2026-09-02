@@ -1,6 +1,8 @@
 # DT-AR-BETA-001 — Final Executive QC Report v1.0
 
-**Document Status:** QC CANDIDATE — NOT CANONICAL
+**Document Status:** CANONICAL — FOUNDER APPROVED
+
+> **Historical QC Note:** The QC findings below were issued before the canonical merge. Current repository state is canonical as of merge commit `d09b2559a530855eab11bdd15b48ee4386051995`.
 
 ## Results
 **Gate A — Governance Consistency: PASS.** Active project/repository routing consistent; main merge/public deployment remain explicit Founder approval gates; status semantics separated.
@@ -17,7 +19,8 @@ PHY-03 school projector acceptance — PENDING. Blender/DCC rigging toolchain �
 ## Disposition
 **FINAL EXECUTIVE QC: PASS**
 
-**Package Status:** CANONICALIZATION CANDIDATE — NOT YET CANONICAL.  
-**Controlled branch publication:** permitted with repository read-back.  
-**Merge to `main`:** HOLD pending explicit Founder approval.  
+**Historical Package Status at QC Time:** CANONICALIZATION CANDIDATE — NOT YET CANONICAL.  
+**Historical Controlled-Branch Gate:** SATISFIED by controlled publication and repository read-back.  
+**Historical Merge Gate:** SATISFIED by explicit Founder approval and merge on 2 September 2026.  
+**Canonical Merge Commit:** `d09b2559a530855eab11bdd15b48ee4386051995`.  
 **Public deployment:** HOLD pending explicit Founder approval.

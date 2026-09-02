@@ -1,6 +1,6 @@
 # DT-AR-BETA-001 — Rehearsal and Event Runbook v1.0
 
-**Status:** QC CANDIDATE — NOT CANONICAL
+**Status:** CANONICAL — FOUNDER APPROVED
 
 ## Pre-event
 Verify frozen local package/checksums; Tab hotspot; Vivo; laptop HTTPS server; Wizard; audio/speaker; local fallback; device power. Perform PHY-03 when school grants access. Conduct silent technical rehearsal before students enter.

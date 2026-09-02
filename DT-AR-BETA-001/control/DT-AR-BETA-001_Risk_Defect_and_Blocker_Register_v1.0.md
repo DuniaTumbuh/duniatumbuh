@@ -1,6 +1,6 @@
 # DT-AR-BETA-001 — Risk, Defect and Blocker Register v1.0
 
-**Status:** QC CANDIDATE — NOT CANONICAL
+**Status:** CANONICAL — FOUNDER APPROVED
 
 | ID | Class | Status | Description | Control |
 |---|---|---|---|---|

@@ -1,6 +1,7 @@
 # DT-AR-BETA-001 — Event-Day Cue Sheet v1.0
 
-**Status:** QC CANDIDATE — NOT CANONICAL. Timing subject to rehearsal.
+**Document Status:** CANONICAL — FOUNDER APPROVED  
+**Production Status:** Timing subject to rehearsal.
 
 | Time | Founder/Host | Wizard/Tech | Camera |
 |---|---|---|---|
