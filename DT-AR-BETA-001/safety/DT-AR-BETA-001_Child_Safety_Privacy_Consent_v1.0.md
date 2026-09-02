@@ -1,6 +1,6 @@
 # DT-AR-BETA-001 — Child Safety, Privacy and Consent v1.0
 
-**Status:** QC CANDIDATE — NOT CANONICAL
+**Status:** CANONICAL — FOUNDER APPROVED
 
 ## P0 Controls
 No facial recognition, biometric processing, unsupervised autonomous AI identification, persistent child accounts, or unnecessary recording/storage.

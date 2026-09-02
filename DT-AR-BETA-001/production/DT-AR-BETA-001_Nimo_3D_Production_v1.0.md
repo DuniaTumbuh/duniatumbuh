@@ -1,6 +1,6 @@
 # DT-AR-BETA-001 — Nimo 3D Production v1.0
 
-**Status:** QC CANDIDATE — NOT CANONICAL
+**Status:** CANONICAL — FOUNDER APPROVED
 
 ## Current Evidence
 - Source identification: PASS.

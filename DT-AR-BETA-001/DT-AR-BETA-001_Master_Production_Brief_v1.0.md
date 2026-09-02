@@ -1,12 +1,13 @@
 # DT-AR-BETA-001 — Master Production Brief v1.0
 
-> **Document Status:** QC CANDIDATE — NOT CANONICAL  
+> **Document Status:** CANONICAL — FOUNDER APPROVED  
 > **Authority:** Founder / Dunia Tumbuh Executive Office  
 > **Active Project:** Dunia Tumbuh  
 > **Event:** 15 September 2026  
 > **Repository:** `DuniaTumbuh/duniatumbuh`  
-> **Canonicalization:** HOLD pending controlled publication/read-back  
-> **Merge to `main`:** HOLD — Founder approval required
+> **Canonicalization:** COMPLETE — Founder-approved merge + repository read-back completed  
+> **Canonical Merge Commit:** `d09b2559a530855eab11bdd15b48ee4386051995`  
+> **Public Deployment:** HOLD — Founder approval required
 
 ## Mission
 Deliver a controlled approximately 30-minute Grade-2 classroom Beta for approximately 20 students in which Nimo enters through the Portal Dunia Tumbuh and becomes an interactive educational character focused on plants and the environment.

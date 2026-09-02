@@ -1,6 +1,6 @@
 # DT-AR-BETA-001 — Event Cinematography v1.0
 
-**Status:** QC CANDIDATE — NOT CANONICAL
+**Status:** CANONICAL — FOUNDER APPROVED
 
 ## Coverage Architecture
 - **CAM-A — MASTER:** continuous wide/safety recording.

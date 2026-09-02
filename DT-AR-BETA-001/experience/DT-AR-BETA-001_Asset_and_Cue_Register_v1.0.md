@@ -1,6 +1,6 @@
 # DT-AR-BETA-001 — Asset and Cue Register v1.0
 
-**Status:** QC CANDIDATE — NOT CANONICAL
+**Status:** CANONICAL — FOUNDER APPROVED
 
 | ID | Asset/Cue | Priority | Lane | Status |
 |---|---|---:|---|---|

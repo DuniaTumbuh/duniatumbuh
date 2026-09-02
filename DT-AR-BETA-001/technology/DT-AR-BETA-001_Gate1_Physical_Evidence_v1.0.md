@@ -1,6 +1,6 @@
 # DT-AR-BETA-001 — Gate-1 Physical Evidence v1.0
 
-**Status:** QC CANDIDATE — NOT CANONICAL
+**Status:** CANONICAL — FOUNDER APPROVED
 
 | Checkpoint | Status | Evidence summary |
 |---|---|---|

@@ -1,6 +1,6 @@
 # DT-AR-BETA-001 — WebAR and Device Chain v1.0
 
-**Status:** QC CANDIDATE — NOT CANONICAL
+**Status:** CANONICAL — FOUNDER APPROVED
 
 ## Locked Topology
 Galaxy Tab S8: hotspot + Wizard Controller.  

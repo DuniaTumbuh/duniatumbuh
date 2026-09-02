@@ -1,6 +1,6 @@
 # DT-AR-BETA-001 — Portal and Nimo World Beta v1.0
 
-**Status:** QC CANDIDATE — NOT CANONICAL
+**Status:** CANONICAL — FOUNDER APPROVED
 
 ## Portal — P0 Creative Target
 Glowing leaf → light travels through leaf vein → `Ting...` → particles → organic roots/leaves/branches form portal → `Laaa...` → Dunia Tumbuh vista → Nimo jambul/head peek → Nimo enters.

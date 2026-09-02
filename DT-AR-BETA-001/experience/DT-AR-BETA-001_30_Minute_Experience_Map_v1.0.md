@@ -1,6 +1,7 @@
 # DT-AR-BETA-001 — 30-Minute Experience Map v1.0
 
-**Status:** REVIEWED PRODUCTION BASELINE — exact scene timing remains adjustable through rehearsal.
+**Document Status:** CANONICAL — FOUNDER APPROVED  
+**Production Status:** REVIEWED PRODUCTION BASELINE — exact scene timing remains adjustable through rehearsal.
 
 | Time | Experience | Nimo/AR | Key need |
 |---|---|---|---|

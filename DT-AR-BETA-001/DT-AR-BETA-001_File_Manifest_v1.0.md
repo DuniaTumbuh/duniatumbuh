@@ -1,6 +1,6 @@
 # DT-AR-BETA-001 — Consolidated Markdown v1.0 File Manifest
 
-**Status:** CONTROLLED BRANCH CANDIDATE — NOT CANONICAL
+**Status:** CANONICAL — FOUNDER APPROVED
 
 ## Integrity Anchors
 - `Nimo_Meshy_Existing_3D_Recovery_ORIGINAL.glb` — SHA-256 `fa40318a3e4a689d84400fd779d8a5fe92fb5ba2c3e9c50bdeaf73ef11eadb4c`
@@ -29,4 +29,4 @@
 20. `postproduction/DT-AR-BETA-001_Cinematic_Documentary_v1.0.md`
 21. `safety/DT-AR-BETA-001_Child_Safety_Privacy_Consent_v1.0.md`
 
-Repository read-back must confirm the complete set before canonicalization or merge consideration.
+Repository read-back and Founder-approved canonical merge were completed on 2 September 2026. Canonical baseline merge commit: `d09b2559a530855eab11bdd15b48ee4386051995`. Public deployment remains HOLD pending explicit Founder approval.
