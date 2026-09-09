@@ -1,0 +1,12 @@
+{
+  "name": "dunia-tumbuh-grow-portal",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Dunia Tumbuh Grow Portal MVP for DT-AR-BETA-001 souvenir QR entry.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
