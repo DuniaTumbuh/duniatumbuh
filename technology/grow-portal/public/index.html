@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6fbf5">
+  <meta name="description" content="Dunia Tumbuh Grow Portal — mulai perjalanan menanam bersama Nimo.">
+  <title>Dunia Tumbuh — Grow Portal</title>
+  <style>
+    :root{color-scheme:light;--bg:#f6fbf5;--card:#fff;--text:#173322;--muted:#5d7465;--green:#2f7d45;--mint:#dff3e4;--line:#d8e7dc}
+    *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text)}
+    main{max-width:760px;margin:0 auto;padding:28px 18px 48px}.hero,.panel{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px}.hero{text-align:center}.eyebrow{font-weight:700;color:var(--green);letter-spacing:.04em}.sprout{font-size:54px}.hero h1{font-size:clamp(30px,7vw,52px);line-height:1.04;margin:8px 0 12px}.hero p{font-size:18px;line-height:1.55;color:var(--muted);margin:0 auto;max-width:560px}.cta{display:inline-block;margin-top:20px;background:var(--green);color:white;text-decoration:none;font-weight:800;padding:14px 20px;border-radius:999px}.panel{margin-top:18px}.panel h2{margin:0 0 8px;font-size:23px}.panel p{color:var(--muted);line-height:1.55}.plants{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}.plant{padding:12px 13px;border-radius:15px;background:var(--mint);font-weight:750}.note{font-size:14px;color:var(--muted);margin-top:18px;text-align:center}.tagline{text-align:center;font-weight:700;margin-top:28px}.tagline span{color:var(--green)}@media(min-width:640px){.plants{grid-template-columns:repeat(5,minmax(0,1fr))}}
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero" aria-labelledby="title">
+      <div class="sprout" aria-hidden="true">🌱</div>
+      <div class="eyebrow">DUNIA TUMBUH — GROW PORTAL</div>
+      <h1 id="title">Petualangan menanammu dimulai di sini.</h1>
+      <p>Tanam, rawat, amati, dan belajar bersama Nimo. Simpan kartu souvenir-mu karena QR yang sama akan menjadi pintu masuk perjalanan tanamanmu.</p>
+      <a class="cta" href="#tanaman">Lihat Tanamanku</a>
+    </section>
+
+    <section class="panel" id="tanaman" aria-labelledby="plant-title">
+      <h2 id="plant-title">Pilih tanaman yang kamu dapat 🌿</h2>
+      <p>Untuk versi awal, pilihan ini membuka daftar tanaman souvenir. Profil edukasi lengkap per tanaman akan ditambahkan setelah verifikasi sumber botani dan nutrisi.</p>
+      <div class="plants" role="list">
+        <div class="plant" role="listitem">🥒 Mentimun</div>
+        <div class="plant" role="listitem">🥕 Wortel Kuroda</div>
+        <div class="plant" role="listitem">🌿 Kacang Panjang</div>
+        <div class="plant" role="listitem">🌶️ Cabai Rawit Merah</div>
+        <div class="plant" role="listitem">🌱 Seledri Super</div>
+        <div class="plant" role="listitem">🌿 Kangkung Super</div>
+        <div class="plant" role="listitem">🥬 Bayam Hijau</div>
+        <div class="plant" role="listitem">🍅 Tomat</div>
+        <div class="plant" role="listitem">🍆 Terong Ungu</div>
+        <div class="plant" role="listitem">🌶️ Cabai Merah Besar</div>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="privacy-title">
+      <h2 id="privacy-title">Privacy-first</h2>
+      <p>Versi ini tidak meminta akun anak, nama anak, lokasi, kamera, atau foto. Fitur Grow ID dan foto perkembangan akan ditambahkan hanya setelah kontrol verifikasi, privasi, dan penyimpanan selesai diuji.</p>
+    </section>
+
+    <p class="note">MVP QR landing page — tidak ada QR generatif, tracking anak, upload foto, atau klaim botani yang belum diverifikasi.</p>
+    <div class="tagline">Dunia Tumbuh — <span>Belajar • Bermain • Bertumbuh</span></div>
+  </main>
+</body>
+</html>
