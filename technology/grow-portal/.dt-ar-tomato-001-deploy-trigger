@@ -1,0 +1,3 @@
+DT-AR-TOMATO-001 controlled Railway auto-deploy trigger.
+Purpose: force one production build after Railway source branch changed to dt-ar-tomato-001-deploy.
+No runtime behavior or application asset is changed by this file.
