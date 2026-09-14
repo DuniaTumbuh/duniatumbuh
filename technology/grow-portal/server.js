@@ -14,7 +14,8 @@ const mime = {
   '.png': 'image/png',
   '.jpg': 'image/jpeg',
   '.jpeg': 'image/jpeg',
-  '.webp': 'image/webp'
+  '.webp': 'image/webp',
+  '.glb': 'model/gltf-binary'
 };
 
 function send(res, status, body, type = 'text/plain; charset=utf-8') {
@@ -23,7 +24,7 @@ function send(res, status, body, type = 'text/plain; charset=utf-8') {
     'Cache-Control': status === 200 ? 'public, max-age=300' : 'no-store',
     'X-Content-Type-Options': 'nosniff',
     'Referrer-Policy': 'strict-origin-when-cross-origin',
-    'Permissions-Policy': 'camera=(), microphone=(), geolocation=()'
+    'Permissions-Policy': 'camera=(self), microphone=(), geolocation=()'
   });
   res.end(body);
 }
@@ -43,9 +44,18 @@ const server = http.createServer((req, res) => {
     return res.end();
   }
 
+  if (requestUrl.pathname === '/ar/tomat') {
+    res.writeHead(308, {
+      Location: `/ar/tomat/${requestUrl.search}`,
+      'Cache-Control': 'no-store'
+    });
+    return res.end();
+  }
+
   let pathname = decodeURIComponent(requestUrl.pathname);
   if (pathname === '/' || pathname === '/grow' || pathname === '/grow/') pathname = '/index.html';
   if (pathname === '/tanamaku/') pathname = '/tanamaku/index.html';
+  if (pathname === '/ar/tomat/') pathname = '/ar/tomat/index.html';
 
   const safePath = path.normalize(pathname).replace(/^(\.\.(\/|\\|$))+/, '');
   const filePath = path.join(publicDir, safePath);
