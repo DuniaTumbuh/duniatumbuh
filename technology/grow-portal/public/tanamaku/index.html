@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Tanam Aku! — Dunia Tumbuh</title>
+<meta name="description" content="Pilih benihmu, pelajari cara menanam, rawat, amati, dan cari bantuan jika tanamanmu bermasalah.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero">
+  <div class="brand">DUNIA <span>TUMBUH</span></div>
+  <h1>Tanam Aku! 🌱</h1>
+  <p>Pilih benihmu, lalu kenali, tanam, rawat, dan amati pertumbuhannya.</p>
+</header>
+
+<main>
+<section id="welcome" class="panel">
+  <h2>Benih apa yang kamu dapat?</h2>
+  <p class="muted">Tekan gambar yang sama dengan stiker pada benihmu.</p>
+  <div id="plantGrid" class="plant-grid" aria-label="Pilihan sayuran"></div>
+</section>
+
+<section id="detail" class="panel hidden" aria-live="polite">
+  <button id="backBtn" class="back">← Pilih sayuran lain</button>
+  <div class="plant-head">
+    <img id="plantImg" alt="">
+    <div><h2 id="plantName"></h2><p id="plantType" class="chip"></p></div>
+  </div>
+
+  <nav class="tabs" aria-label="Menu tanaman">
+    <button data-tab="kenalan" class="active">Kenalan</button>
+    <button data-tab="tumbuh">Tumbuh</button>
+    <button data-tab="menanam">Menanam</button>
+    <button data-tab="rawat">Rawat</button>
+    <button data-tab="gizi">Gizi</button>
+    <button data-tab="bantuan">Bantuan</button>
+  </nav>
+
+  <div id="tabContent" class="tab-content"></div>
+
+  <section class="tracker">
+    <h3>📅 Hari ke berapa tanamanku?</h3>
+    <label>Tanggal mulai menanam <input id="plantDate" type="date"></label>
+    <button id="saveDate">Simpan di perangkat ini</button>
+    <p id="dayCount"></p>
+    <small>Data tanggal hanya disimpan di browser perangkat ini.</small>
+  </section>
+</section>
+</main>
+
+<footer>
+  <strong>Dunia Tumbuh</strong> · Belajar • Bermain • Bertumbuh<br>
+  <small>Gunakan panduan ini bersama orang tua/guru. Waktu tumbuh dapat berbeda menurut benih, cuaca, media, dan perawatan.</small>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

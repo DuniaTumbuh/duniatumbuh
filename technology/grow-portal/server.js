@@ -37,6 +37,7 @@ const server = http.createServer((req, res) => {
 
   let pathname = decodeURIComponent(requestUrl.pathname);
   if (pathname === '/' || pathname === '/grow' || pathname === '/grow/') pathname = '/index.html';
+  if (pathname === '/tanamaku' || pathname === '/tanamaku/') pathname = '/tanamaku/index.html';
 
   const safePath = path.normalize(pathname).replace(/^(\.\.(\/|\\|$))+/, '');
   const filePath = path.join(publicDir, safePath);
