@@ -35,9 +35,17 @@ const server = http.createServer((req, res) => {
     return send(res, 200, JSON.stringify({ status: 'ok', service: 'dt-grow-portal' }), 'application/json; charset=utf-8');
   }
 
+  if (requestUrl.pathname === '/tanamaku') {
+    res.writeHead(308, {
+      Location: `/tanamaku/${requestUrl.search}`,
+      'Cache-Control': 'no-store'
+    });
+    return res.end();
+  }
+
   let pathname = decodeURIComponent(requestUrl.pathname);
   if (pathname === '/' || pathname === '/grow' || pathname === '/grow/') pathname = '/index.html';
-  if (pathname === '/tanamaku' || pathname === '/tanamaku/') pathname = '/tanamaku/index.html';
+  if (pathname === '/tanamaku/') pathname = '/tanamaku/index.html';
 
   const safePath = path.normalize(pathname).replace(/^(\.\.(\/|\\|$))+/, '');
   const filePath = path.join(publicDir, safePath);
