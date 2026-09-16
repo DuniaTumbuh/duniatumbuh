@@ -20,6 +20,11 @@
     <button class="ar-button" slot="ar-button">📱 Lihat dalam AR</button>
     <div class="progress" slot="progress-bar"><div class="bar"></div></div>
   </model-viewer>
+  <div id="hotspotInfo" class="hotspot-info" hidden role="status" aria-live="polite">
+    <button id="hotspotClose" class="hotspot-close" type="button" aria-label="Tutup penjelasan">×</button>
+    <strong id="hotspotTitle"></strong>
+    <p id="hotspotText"></p>
+  </div>
   <div class="meta"><div><span id="counter">Tahap 1 dari 7</span><h2 id="title">Biji Tomat</h2></div><button id="reset" type="button">Reset View</button></div>
   <p id="note">Awal perjalanan: biji berada sebelum proses perkecambahan.</p>
 </section>
@@ -31,8 +36,9 @@
 </section>
 <section class="teacher">
   <h2>Mode Kelas</h2>
-  <p><strong>Urutan:</strong> Biji → Akar → Tunas/Tanaman Muda → Batang & Daun → Bunga → Buah Hijau → Matang.</p>
-  <p class="notice">Catatan terkontrol: tahap “Tunas” saat ini memakai model vegetatif yang sama pada skala kecil sebagai proxy visual. Bukan aset sprout khusus.</p>
+  <p><strong>Urutan:</strong> Biji → Akar → Tunas → Batang & Daun → Bunga → Buah Hijau → Matang.</p>
+  <p class="notice">Tahap “Tunas” menggunakan aset seedling khusus yang telah diverifikasi untuk tampilan 3D dan Mode AR.</p>
+  <p class="notice">Pilot interaksi: pada tahap “Batang & Daun”, sentuh penanda “Daun” untuk melihat penjelasan fungsi daun.</p>
 </section>
 </main>
 <footer>Belajar • Bermain • Bertumbuh</footer>
