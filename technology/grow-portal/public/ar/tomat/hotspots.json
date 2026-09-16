@@ -1,0 +1,17 @@
+{
+  "version": "0.1",
+  "failMode": "graceful",
+  "hotspots": [
+    {
+      "id": "veg-leaf-01",
+      "stage": "veg",
+      "label": "Daun",
+      "title": "Daun Tomat",
+      "text": "Daun membantu tanaman membuat makanan dengan memanfaatkan cahaya matahari. Proses ini disebut fotosintesis.",
+      "position": "0.10m 0.42m 0.02m",
+      "normal": "0m 1m 0m",
+      "response": "pulse",
+      "ariaLabel": "Pelajari fungsi daun tomat"
+    }
+  ]
+}
