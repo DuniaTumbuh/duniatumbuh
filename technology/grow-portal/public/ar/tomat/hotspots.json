@@ -1,5 +1,5 @@
 {
-  "version": "0.2",
+  "version": "0.3",
   "failMode": "graceful",
   "hotspots": [
     {
@@ -8,7 +8,7 @@
       "label": "Daun",
       "title": "Daun Tomat",
       "text": "Daun membantu tanaman membuat makanan dengan memanfaatkan cahaya matahari. Proses ini disebut fotosintesis.",
-      "position": "-0.18m 0.50m 0.03m",
+      "position": "0.275m 0.721m 0.081m",
       "normal": "0m 1m 0m",
       "response": "pulse",
       "ariaLabel": "Pelajari fungsi daun tomat"
