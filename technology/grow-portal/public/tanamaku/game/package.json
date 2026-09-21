@@ -1,0 +1,8 @@
+{
+  "name": "dt-tanam-aku-game-001-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/implementation-01.mjs"
+  }
+}
