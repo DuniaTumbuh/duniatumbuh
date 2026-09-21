@@ -1,0 +1,32 @@
+[
+  {
+    "id": "tomat-plant-seed-001",
+    "version": "0.1",
+    "type": "CARE",
+    "plantId": "tomat",
+    "eligibleStages": ["seed"],
+    "title": "Tanam Benihmu",
+    "instructions": [
+      "Siapkan wadah dan media tanam bersama orang dewasa.",
+      "Tanam benih sesuai panduan Grow Kit.",
+      "Setelah selesai, kembali ke Tanam Aku."
+    ],
+    "nextObservationId": null,
+    "reward": {"stars": 1}
+  },
+  {
+    "id": "tomat-check-soil-001",
+    "version": "0.1",
+    "type": "OBSERVE",
+    "plantId": "tomat",
+    "eligibleStages": ["seed", "sprout", "leaf"],
+    "title": "Periksa Tanah Tanamanmu",
+    "instructions": [
+      "Lihat permukaan tanah.",
+      "Sentuh tanah dengan lembut.",
+      "Pilih kondisi yang paling sesuai."
+    ],
+    "nextObservationId": "tomat-soil-moisture-001",
+    "reward": {"stars": 1}
+  }
+]
