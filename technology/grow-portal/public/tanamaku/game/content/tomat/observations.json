@@ -1,0 +1,25 @@
+[
+  {
+    "id": "tomat-soil-moisture-001",
+    "version": "0.1",
+    "question": "Apakah tanah masih lembap?",
+    "choices": [
+      {"id": "moist", "label": "Ya, masih lembap"},
+      {"id": "dry", "label": "Terasa kering"},
+      {"id": "unsure", "label": "Aku tidak yakin"}
+    ],
+    "journal": true,
+    "stageMutation": null
+  },
+  {
+    "id": "tomat-sprout-seen-001",
+    "version": "0.1",
+    "question": "Apakah sudah ada tunas kecil keluar dari tanah?",
+    "choices": [
+      {"id": "yes", "label": "Ya, aku melihat tunas!", "confirmedStage": "sprout"},
+      {"id": "not-yet", "label": "Belum terlihat"},
+      {"id": "unsure", "label": "Aku tidak yakin"}
+    ],
+    "journal": true
+  }
+]
