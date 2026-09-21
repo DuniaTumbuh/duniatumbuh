@@ -1,0 +1,8 @@
+[
+  {"id":"seed","label":"Benih"},
+  {"id":"sprout","label":"Tunas"},
+  {"id":"leaf","label":"Daun"},
+  {"id":"flower","label":"Bunga"},
+  {"id":"fruit","label":"Buah"},
+  {"id":"harvest","label":"Panen"}
+]
