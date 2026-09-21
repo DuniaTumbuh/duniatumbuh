@@ -1,0 +1,13 @@
+[
+  {
+    "id": "tomat-leaf-function-001",
+    "version": "0.1",
+    "eligibleStages": ["leaf", "flower", "fruit", "harvest"],
+    "question": "Apa salah satu fungsi penting daun pada tanaman?",
+    "choices": [
+      {"id":"a","label":"Membantu tanaman membuat makanan","correct":true},
+      {"id":"b","label":"Menyimpan semua biji","correct":false},
+      {"id":"c","label":"Menahan tanaman di dalam tanah","correct":false}
+    ]
+  }
+]
