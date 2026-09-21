@@ -3,6 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node tests/implementation-01.mjs"
+    "test": "node tests/implementation-01.mjs && node tests/implementation-02.mjs",
+    "test:implementation-01": "node tests/implementation-01.mjs",
+    "test:implementation-02": "node tests/implementation-02.mjs"
   }
 }
