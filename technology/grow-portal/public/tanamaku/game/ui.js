@@ -62,6 +62,6 @@ function renderObservation(o){
 function renderJournal(){
  const j=journey();screen.innerHTML=`<div class="eyebrow">JURNALKU</div><h1>📔 Perjalanan Tomatku</h1>${j.journal.length?j.journal.map(x=>`<div class="journal-entry"><b>${x.type==="mission"?"Misi":"Pengamatan"}</b><br><span class="muted">${x.missionId||x.observationId||""}</span></div>`).join(""):"<p>Belum ada catatan.</p>"}`;syncChrome();
 }
-function renderGarden(){screen.innerHTML=`<div class="eyebrow">KEBUNKU</div><h1>🌿 Kebun Dunia Tumbuh-ku</h1><div class="card"><b>🍅 Tomat</b><p>Perjalanan aktif · ${journey()?.currentStage||"seed"}</p></div><p class="muted">Tanaman lain akan ditambahkan melalui Plant Registry tanpa mengubah core game.</p>`;syncChrome()}
+function renderGarden(){screen.innerHTML=`<div class="eyebrow">KEBUNKU</div><h1>🌿 Kebun Dunia Tumbuh-ku</h1><div class="card"><b>🍅 Tomat</b><p>Perjalanan aktif · ${({seed:"Benih",sprout:"Tunas",leaf:"Daun",flower:"Bunga",fruit:"Buah",harvest:"Panen"})[journey()?.currentStage||"seed"]||journey()?.currentStage||"Benih"}</p></div><p class="muted">Tanaman lain akan ditambahkan melalui Plant Registry tanpa mengubah core game.</p>`;syncChrome()}
 nav.querySelectorAll("button").forEach(b=>b.onclick=()=>b.dataset.nav==="journal"?renderJournal():b.dataset.nav==="garden"?renderGarden():renderHome());
 boot().catch(e=>{screen.innerHTML=`<h1>Preview belum dapat dimuat</h1><p>${e.message}</p>`});

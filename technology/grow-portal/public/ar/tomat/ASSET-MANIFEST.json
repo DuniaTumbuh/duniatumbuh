@@ -1,0 +1,18 @@
+{
+  "id": "DT-AR-TOMATO-001",
+  "route": "/ar/tomat/",
+  "status": "CONTROLLED DEPLOYMENT CANDIDATE",
+  "assets": [
+    {"file":"assets/seed.glb","bytes":7506684,"sha256":"1be54a55fdf97a89d6fb6cb87711e246ab4c8b145e5a034771ffb8bdb8d6ff4e"},
+    {"file":"assets/root.glb","bytes":622844,"sha256":"7347121ed4b2349fc07a5005c0d05cc5b11d29de017058abbb54a90390f4e3e2"},
+    {"file":"assets/vegetative.glb","bytes":642060,"sha256":"7f253cb0aaca8489f3b506b61cfbd42126534fcb3a011a663344915ddc26817d"},
+    {"file":"assets/flowering.glb","bytes":904300,"sha256":"6ceec47dda981b2ba36f72c7ff1a9193f7d68b9d8ad36616198673bf06e3f41b"},
+    {"file":"assets/green-fruit.glb","bytes":714096,"sha256":"909b0b56179b35a2a8faa450e7b9b0419631a853877109c4ad1d6f11d9d57a53"},
+    {"file":"assets/ripe-fruit.glb","bytes":721632,"sha256":"d2556389f0e1f4c93a650a14c64297ca40929293b7d3aa4f24cacdb0c26b82d4"}
+  ],
+  "controlledLimitations": [
+    "Tunas/Tanaman Muda uses vegetative.glb at reduced scale as a controlled proxy because no dedicated verified sprout GLB is currently available.",
+    "model-viewer runtime currently loads from Google's hosted library; first load requires network access.",
+    "GLB-only package keeps interactive 3D fallback available; native iOS Quick Look may require a future USDZ derivative."
+  ]
+}

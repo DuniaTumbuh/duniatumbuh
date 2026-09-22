@@ -1,0 +1,9 @@
+[
+  {"id":"seed","label":"Biji","title":"Biji Tomat","src":"assets/seed.glb","note":"Awal perjalanan: biji berada sebelum proses perkecambahan.","scale":"1 1 1"},
+  {"id":"root","label":"Akar","title":"Akar Mulai Tumbuh","src":"assets/root.glb","note":"Akar tumbuh ke bawah untuk membantu menyerap air dan menopang tanaman.","scale":"1 1 1"},
+  {"id":"young","label":"Tunas","title":"Tunas","src":"assets/seedling.glb","note":"Tunas muda muncul setelah akar mulai tumbuh, dengan batang kecil dan daun awal.","scale":"1 1 1"},
+  {"id":"veg","label":"Daun","title":"Batang & Daun","src":"assets/vegetative.glb","note":"Batang dan daun berkembang semakin banyak.","scale":"1 1 1"},
+  {"id":"flower","label":"Bunga","title":"Mulai Berbunga","src":"assets/flowering.glb","note":"Bunga kuning muncul sebelum buah terbentuk.","scale":"1 1 1"},
+  {"id":"green","label":"Buah Hijau","title":"Buah Tomat Hijau","src":"assets/green-fruit.glb","note":"Buah sudah terbentuk tetapi belum matang.","scale":"1 1 1"},
+  {"id":"ripe","label":"Matang","title":"Tomat Matang","src":"assets/ripe-fruit.glb","note":"Tomat matang berwarna merah dan siap diamati sebagai tahap akhir.","scale":"1 1 1"}
+]
