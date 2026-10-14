@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dunia Tumbuh — Gate 2G Mock Editor</title><link rel="stylesheet" href="./style.css"></head>
+<body><header><strong>🌿 Dunia Tumbuh · Invitation Lab</strong><span>GATE 2G · MOCK ONLY · NOT PUBLISHED</span></header>
+<main><section class="panel"><h1>Editor Undangan</h1><p class="note">Data simulasi, tidak tersimpan ke server. Perubahan satu acara tidak mengubah acara lain.</p>
+<label for="event">Pilih acara simulasi</label><select id="event"></select>
+<label for="title">Judul acara</label><input id="title" maxlength="80">
+<label for="date">Tanggal dan waktu</label><input id="date" type="datetime-local">
+<label for="venue">Lokasi</label><input id="venue" maxlength="120">
+<label for="cake">Warna kue</label><select id="cake"><option value="mint">Mint</option><option value="pink">Pink</option><option value="sunny">Kuning</option></select>
+<label for="candles">Jumlah lilin (1–8)</label><input id="candles" type="number" min="1" max="8">
+<label class="check"><input id="music" type="checkbox"> Aktifkan musik demo (nada sintetis)</label>
+<div class="actions"><button id="preview">Preview Draft</button><button id="publish" class="primary">Simulasikan Publish</button><button id="rollback">Rollback</button></div><p id="status" role="status" aria-live="polite"></p>
+</section><section class="panel preview"><h2>Preview Undangan</h2><div class="card"><span id="universe"></span><div class="dino" aria-hidden="true">🦕</div><h2 id="displayTitle"></h2><p id="displayDate"></p><p id="displayVenue"></p><div id="cakeArt" class="cake" aria-label="Kue ulang tahun digital"><div id="flames" class="flames"></div><div class="icing"></div><div class="cakebody">🎂</div></div><button id="blow">Tiup lilin (tombol)</button><p id="celebrate" aria-live="polite"></p><div class="actions"><button id="play" aria-pressed="false">▶ Musik demo</button><button id="mute" aria-pressed="true">🔇 Mute</button></div><p class="note">RSVP: simulasi saja · Tidak menerima data tamu</p></div><p id="revision"></p></section></main>
+<footer>Prototype lokal · Tanpa backend, AI, kamera, mikrofon, pelacakan, atau pembayaran. Ilustrasi emoji bukan canonical Dino IP.</footer><script src="./app.js" defer></script></body></html>
